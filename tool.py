@@ -130,7 +130,8 @@ def handle_photo():
     list_info.reverse()  # 翻转
     final_dict = {"list": list_info}
 
-    with open("janche.github.io/blob/master/photos/data.json","w") as fp:
+    # with open("F:\\vscode_workspace\\janche.github.io\\source\\photos\\data.json","w") as fp:
+    with open("F:\vscode_workspace\Blog-Photo\blog_photos_copy\data.json","w") as fp:
         json.dump(final_dict, fp)
 
 def cut_photo():
